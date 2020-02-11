@@ -335,7 +335,9 @@ h1 {
   .grid-item.height-cut {
     height: 195px; }
   .grid-item:not(.scale) {
-    border: 1px solid #000; }
+    border: 11px solid #df1238;
+    -o-border-image: linear-gradient(-30deg, #df1238, #ff6a3f) 30;
+    border-image: linear-gradient(-30deg, #df1238, #ff6a3f) 30; }
   .grid-item.grid-item--large {
     width: 50%;
     height: 400px; }
