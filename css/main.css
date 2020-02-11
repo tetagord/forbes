@@ -4,11 +4,10 @@
 @import url(slick.css);
 @import url(slick-theme.css);
 body * {
-  font-family: 'Roboto Slab';
+  font-family: sans-serif, 'Roboto Slab';
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box; }
-
 input {
   outline: none; }
 
@@ -38,7 +37,7 @@ body {
   -moz-background-size: cover;
        background-size: cover;
   background-position: 50%;
-  min-height: 754px; }
+  min-height: 800px; }
   .header::after {
     position: absolute;
     content: '';

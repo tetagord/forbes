@@ -42,4 +42,4 @@ $grid.on('click', '.grid-item.scale', function(event) {
 });
 
 
-$('.header').css('height', $(window).height() + 'px')
+// $('.header').css('height', $(window).height() + 'px')
