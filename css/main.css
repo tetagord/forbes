@@ -106,7 +106,7 @@
   src: url("../fonts/Geometria-ThinItalic.woff") format("woff"); }
 
 body * {
-  font-family: sans-serif, 'Roboto Slab';
+  font-family: 'Geometria', sans-serif, 'Roboto Slab';
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box; }
