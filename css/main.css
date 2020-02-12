@@ -3,11 +3,114 @@
 @import url(bootstrap-grid.min.css);
 @import url(slick.css);
 @import url(slick-theme.css);
+@font-face {
+  font-family: 'Geometria';
+  src: url("../fonts/Geometria.ttf") format("truetype");
+  src: url("../fonts/Geometria.eot") format("eot");
+  src: url("../fonts/Geometria.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-Bold';
+  src: url("../fonts/Geometria-Bold.ttf") format("truetype");
+  src: url("../fonts/Geometria-Bold.eot") format("eot");
+  src: url("../fonts/Geometria-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-BoldItalic';
+  src: url("../fonts/Geometria-BoldItalic.ttf") format("truetype");
+  src: url("../fonts/Geometria-BoldItalic.eot") format("eot");
+  src: url("../fonts/Geometria-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-ExtraBold';
+  src: url("../fonts/Geometria-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/Geometria-ExtraBold.eot") format("eot");
+  src: url("../fonts/Geometria-ExtraBold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-ExtraBoldItalic';
+  src: url("../fonts/Geometria-ExtraBoldItalic.ttf") format("truetype");
+  src: url("../fonts/Geometria-ExtraBoldItalic.eot") format("eot");
+  src: url("../fonts/Geometria-ExtraBoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-ExtraLight';
+  src: url("../fonts/Geometria-ExtraLight.ttf") format("truetype");
+  src: url("../fonts/Geometria-ExtraLight.eot") format("eot");
+  src: url("../fonts/Geometria-ExtraLight.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-ExtraLightItalic';
+  src: url("../fonts/Geometria-ExtraLightItalic.ttf") format("truetype");
+  src: url("../fonts/Geometria-ExtraLightItalic.eot") format("eot");
+  src: url("../fonts/Geometria-ExtraLightItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("../fonts/Geometria.ttf") format("truetype");
+  src: url("../fonts/Geometria.eot") format("eot");
+  src: url("../fonts/Geometria.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-Heavy';
+  src: url("../fonts/Geometria-Heavy.ttf") format("truetype");
+  src: url("../fonts/Geometria-Heavy.eot") format("eot");
+  src: url("../fonts/Geometria-Heavy.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-HeavyItalic';
+  src: url("../fonts/Geometria-HeavyItalic.ttf") format("truetype");
+  src: url("../fonts/Geometria-HeavyItalic.eot") format("eot");
+  src: url("../fonts/Geometria-HeavyItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-Italic';
+  src: url("../fonts/Geometria-Italic.ttf") format("truetype");
+  src: url("../fonts/Geometria-Italic.eot") format("eot");
+  src: url("../fonts/Geometria-Italic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-Light';
+  src: url("../fonts/Geometria-Light.ttf") format("truetype");
+  src: url("../fonts/Geometria-Light.eot") format("eot");
+  src: url("../fonts/Geometria-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-LightItalic';
+  src: url("../fonts/Geometria-LightItalic.ttf") format("truetype");
+  src: url("../fonts/Geometria-LightItalic.eot") format("eot");
+  src: url("../fonts/Geometria-LightItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-Medium';
+  src: url("../fonts/Geometria-Medium.ttf") format("truetype");
+  src: url("../fonts/Geometria-Medium.eot") format("eot");
+  src: url("../fonts/Geometria-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-MediumItalic';
+  src: url("../fonts/Geometria-MediumItalic.ttf") format("truetype");
+  src: url("../fonts/Geometria-MediumItalic.eot") format("eot");
+  src: url("../fonts/Geometria-MediumItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-Thin';
+  src: url("../fonts/Geometria-Thin.ttf") format("truetype");
+  src: url("../fonts/Geometria-Thin.eot") format("eot");
+  src: url("../fonts/Geometria-Thin.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Geometria-ThinItalic';
+  src: url("../fonts/Geometria-ThinItalic.ttf") format("truetype");
+  src: url("../fonts/Geometria-ThinItalic.eot") format("eot");
+  src: url("../fonts/Geometria-ThinItalic.woff") format("woff"); }
+
 body * {
   font-family: sans-serif, 'Roboto Slab';
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box; }
+
 input {
   outline: none; }
 
@@ -37,7 +140,7 @@ body {
   -moz-background-size: cover;
        background-size: cover;
   background-position: 50%;
-  min-height: 800px; }
+  min-height: 754px; }
   .header::after {
     position: absolute;
     content: '';
@@ -81,17 +184,19 @@ body {
        -moz-border-radius: 50%;
             border-radius: 50%; }
 
-.header-social a {
-  display: inline-block;
-  position: relative;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 0;
-  border: 1px solid #ffffff;
-  margin-left: 19px;
-  width: 40px;
-  height: 40px;
-  text-align: center; }
+.header-social {
+  margin-bottom: 20px; }
+  .header-social a {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 0;
+    border: 1px solid #ffffff;
+    margin-left: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center; }
 
 .header-middle {
   position: relative;
@@ -250,10 +355,11 @@ h1 {
   width: 100%; }
 
 .carousel-item {
-  background-image: url("https://positivepsychology.com/wp-content/uploads/positive-psychology-conference.jpg");
-  -moz-background-size: cover;
-       background-size: cover;
+  -moz-background-size: contain;
+       background-size: contain;
   height: 250px;
+  background-position: 50%;
+  background-repeat: no-repeat;
   position: relative; }
   .carousel-item h3 {
     color: #ffffff;
@@ -304,7 +410,6 @@ h1 {
   .slick-custom-arrow.next {
     right: 0; }
 
-/* ---- grid-item ---- */
 .grid-item {
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -316,7 +421,7 @@ h1 {
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
-  padding: 15px;
+  padding: 15px 10px;
   background-position: 50%;
   cursor: pointer;
   background-repeat: no-repeat; }
@@ -336,11 +441,19 @@ h1 {
     height: 195px; }
   .grid-item:not(.scale) {
     border: 11px solid #df1238;
-    -o-border-image: linear-gradient(-30deg, #df1238, #ff6a3f) 30;
-    border-image: linear-gradient(-30deg, #df1238, #ff6a3f) 30; }
+    -o-border-image: -o-linear-gradient(120deg, #df1238, #ff6a3f) 30;
+    -webkit-border-image: -webkit-linear-gradient(120deg, #df1238, #ff6a3f) 30;
+       -moz-border-image: -moz-linear-gradient(120deg, #df1238, #ff6a3f) 30;
+            border-image: linear-gradient(-30deg, #df1238, #ff6a3f) 30; }
   .grid-item.grid-item--large {
     width: 50%;
-    height: 400px; }
+    height: 400px;
+    overflow: hidden; }
+  .grid-item p {
+    font-size: 14px;
+    line-height: 1.1;
+    max-height: 154px;
+    overflow: hidden; }
 
 @media screen and (max-width: 1200px) {
   .phone-img {
@@ -362,12 +475,16 @@ h1 {
     padding-top: 44px; } }
 
 @media screen and (max-width: 992px) {
+  h1 {
+    font-size: 54px; }
   .phone-img {
     left: 50%;
     width: 322px;
     height: 636px; } }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 44px; }
   .phone-img {
     left: 73%;
     top: -230px; }
@@ -378,6 +495,8 @@ h1 {
     right: 37px; }
   .grid-item {
     overflow: hidden; }
+    .grid-item p {
+      max-height: 107px; }
     .grid-item.height-50 {
       height: 300px; }
     .grid-item.height-25 {
@@ -398,7 +517,7 @@ h1 {
     min-height: 579px;
     padding: 0 15px; }
   h1 {
-    font-size: 40px; }
+    font-size: 24px; }
   .carousel {
     height: 290px; }
   .carousel-item.slick-center {
@@ -430,6 +549,8 @@ h1 {
   .grid-item.grid-item--large {
     width: 100%;
     height: 250px; }
+  .grid-item p {
+    max-height: 47px; }
   .phone-img {
     display: none; } }
 
