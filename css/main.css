@@ -159,8 +159,9 @@ body {
 .logo {
   display: inline-block;
   margin-bottom: 20px; }
-  .logo img {
-    max-width: 230px; }
+  .logo svg {
+    max-width: 230px;
+    fill: #ffffff; }
 
 .age {
   position: relative;
@@ -512,7 +513,7 @@ h1 {
       height: 145px; } }
 
 @media screen and (max-width: 576px) {
-  .logo img {
+  .logo svg {
     max-width: 180px; }
   .header {
     min-height: 579px;
