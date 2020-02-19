@@ -113,7 +113,9 @@ body * {
 
 input {
   outline: none; }
-
+.main {
+  background-color: #1a1a1a
+}
 textarea {
   resize: none; }
 
@@ -424,6 +426,7 @@ h1 {
   padding: 15px 10px;
   background-position: 50%;
   cursor: pointer;
+  background-size: cover;
   background-repeat: no-repeat; }
   .grid-item.height-50 {
     height: 400px; }
@@ -444,7 +447,8 @@ h1 {
     -o-border-image: -o-linear-gradient(120deg, #df1238, #ff6a3f) 30;
     -webkit-border-image: -webkit-linear-gradient(120deg, #df1238, #ff6a3f) 30;
        -moz-border-image: -moz-linear-gradient(120deg, #df1238, #ff6a3f) 30;
-            border-image: linear-gradient(-30deg, #df1238, #ff6a3f) 30; }
+            border-image: linear-gradient(-30deg, #df1238, #ff6a3f) 30;
+          background-color: #fff; }
   .grid-item.grid-item--large {
     width: 50%;
     height: 400px;
