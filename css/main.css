@@ -247,12 +247,14 @@ body {
 .header-middle p {
     color: #ffffff;
     margin-bottom: 20px;
+    line-height: 1.3;
 }
 
 .header-middle i {
     color: gold;
     display: inline-block;
     margin-right: 15px;
+    line-height: 1.3;
 }
 
 h1 {
@@ -438,7 +440,10 @@ h1 {
     background-position: 50%;
     background-repeat: no-repeat;
     position: relative;
+    outline: none;
 }
+
+
 
 .carousel-item h3 {
     color: #ffffff;
@@ -472,6 +477,7 @@ h1 {
     right: 15px;
     min-width: 200px;
     opacity: 0;
+    z-index: 33;
 }
 
 .slick-custom-arrow {
@@ -620,6 +626,19 @@ h1 {
     .carousel-item--btn {
         right: 37px;
     }
+    .carousel-item:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 1;
+}
+.grid-item:not(.scale) {
+	border: 7px solid #df1238;
+}
     .grid-item {
         overflow: hidden;
     }
@@ -648,6 +667,9 @@ h1 {
 }
 
 @media screen and (max-width: 576px) {
+	.header-social a {
+		margin-left: 15px;
+	}
     .logo svg {
         max-width: 180px;
     }
